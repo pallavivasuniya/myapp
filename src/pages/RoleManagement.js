@@ -92,7 +92,7 @@ const RoleManagement = () => {
   };
 
   // Theme-based styles
-  const containerStyles = theme === "light" ? "bg-white text-black" : "bg-gray-800 text-white";
+  const containerStyles = theme === "light" ? "bg-white text-black" : "bg-gray-800 text-black";
   const buttonStyles = theme === "light" ? "bg-blue-500 hover:bg-blue-600" : "bg-blue-700 hover:bg-blue-800";
   const headerStyles = theme === "light" ? "bg-gray-100" : "bg-gray-700";
   const tableHeaderStyles = theme === "light" ? "bg-gray-200" : "bg-gray-600";
